@@ -10,8 +10,8 @@ import java.util.logging.Logger;
 
 public class MyConBD {
 	private String url = "jdbc:mysql://localhost:3306/GStocks";
-	private String user = "root";
-	private String passwd = "root@root";
+	private String user = "user";
+	private String passwd = "password";
 	private Connection connection;
 	static MyConBD instance;
 	
